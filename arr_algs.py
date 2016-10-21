@@ -2,8 +2,6 @@ massive=[] #создаем массив, в которой нужно будет
 for i in range(int(input())):
     massive.append(int(input()))
 
-# В перменной "К" зранится индекс элемента, подлежащего обмену (двигаемся слева на право)
-
 def minimum(massive): #Функция для вычисления минимумма
     minmas = massive[0]
     for i in massive:
